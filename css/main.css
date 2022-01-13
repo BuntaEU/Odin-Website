@@ -1,0 +1,50 @@
+body {
+    background-color:grey;
+}
+.navbar{
+    background-color: #1f2937;
+    display:flex;
+    align-items: center; 
+    padding: 20px 40px 20px 40px;
+
+}
+
+.header-logo img{
+    width:80px;
+    height:80px;
+}
+.navbar ul{
+    margin-left: auto;
+    list-style: none;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+.navbar li{
+    display:inline-block;
+    margin-left: 100px;
+    position:relative;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Roboto",Arial;
+}
+.navbar a:hover{
+    color: orange;
+}
+.navbar a::before{
+    content:"";
+    display:block;
+    height:5px;
+    background-color: orange;
+    position: absolute;
+    top: -55.8px;
+    width:0%;
+    transition: all ease-in-out 250ms;
+}
+.navbar a:hover::before{
+    width:100%;
+}
