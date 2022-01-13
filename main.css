@@ -35,7 +35,7 @@ body {
 .navbar a{
     text-decoration: none;
     color:white;
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
     font-family: "Roboto",Arial;
 }
@@ -56,14 +56,41 @@ body {
     width:100%;
 }
 .pagehero {
+    background-image: url(images/h8hsv5S.gif);
+    background-position: center;
+    background-size: cover;
     display:flex;
     align-items:center;
     justify-content: center;
+    padding:90px;
+    
+}
+
+.texthero {
+    display:flex;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    padding: 20px;
+    flex-basis: 500px;
+    flex-direction: column;
+    text-align:left;
+    margin-right: 200px;
+}
+.texthero h1{
+    align-self: center;
+    margin-top: 0px;
+}
+.texthero p{
+    color: honeydew;
+    font-family: "Robota", Arial;
+    text-align: center;
+    margin-bottom: 40px;
+
+
 }
 .bulbahero img{
     width: 500px;
     height:500px;
-    padding: 90px;
-
-
+    padding-left: 150px;
 }
