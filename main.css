@@ -55,42 +55,52 @@ body {
 .navbar a:hover::before{
     width:100%;
 }
-.pagehero {
+.backgroundcontainer {
     background-image: url(images/h8hsv5S.gif);
     background-position: center;
     background-size: cover;
+}
+.pagehero {
     display:flex;
     align-items:center;
-    justify-content: center;
     padding:90px;
+    margin-left: 300px;
     
 }
-
 .texthero {
     display:flex;
     border-radius: 25px;
     background-color: rgba(0,0,0,.7);
     color: white;
     padding: 20px;
-    flex-basis: 500px;
+    flex-basis: 1000px;
     flex-direction: column;
-    text-align:left;
+    text-align: center;
     margin-right: 200px;
+    font-family: "roboto",Arial;
 }
 .texthero h1{
+    font-size: 48px;
     align-self: center;
     margin-top: 0px;
+    font-weight: bold;
 }
 .texthero p{
     color: honeydew;
     font-family: "Robota", Arial;
     text-align: center;
-    margin-bottom: 40px;
-
-
+    margin-bottom: 20px;
+}
+.texthero button{
+    display:block;
+    width:110px;
+    padding:5px;
+    align-self: center;
+    border-radius: 25px;
+    
 }
 .bulbahero img{
-    width: 500px;
-    height:500px;
+    max-width: 60%;
+    height:auto;
     padding-left: 150px;
 }
