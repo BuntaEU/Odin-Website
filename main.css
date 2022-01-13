@@ -1,5 +1,11 @@
 body {
-    background-color:grey;
+    background-image: url("images\h8hsv5S.gif");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navbar{
     background-color: #1f2937;
@@ -22,7 +28,8 @@ body {
 }
 .navbar li{
     display:inline-block;
-    margin-left: 100px;
+    margin-left: 70px;
+    padding-top: 5px;
     position:relative;
 }
 .navbar a{
@@ -47,4 +54,16 @@ body {
 }
 .navbar a:hover::before{
     width:100%;
+}
+.pagehero {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.bulbahero img{
+    width: 500px;
+    height:500px;
+    padding: 90px;
+
+
 }
